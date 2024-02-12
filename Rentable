@@ -1,0 +1,10 @@
+
+package VehicleHiringSystem;
+
+import java.util.Date;
+
+
+public interface Rentable {
+     public abstract void rentMe(Date start,Date end,String deliveryLocation,String droppingLocation)throws SorryWeDontHaveThatOneException;
+      public abstract void dropMe();
+}
